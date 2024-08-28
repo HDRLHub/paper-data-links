@@ -19,4 +19,3 @@ title: All Papers
   {% endfor %}
 {% endfor %}{% endraw %}
 </ul>
-```
