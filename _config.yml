@@ -5,3 +5,6 @@ github_repo_url: "https://github.com/abuonomo/paper-data-links/blob/main"
 include:
   - "*.json"
   - CONTRIBUTING.md
+permalink: pretty
+kramdown:
+  input: GFM
