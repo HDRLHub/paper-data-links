@@ -1,8 +1,5 @@
 # This script, including code comments, was initially drafted by an AI model. Please use with caution.
 
-The improved script should correctly use LASCO as the instrument and C2, C3 as detectors.
-
-```python
 import astropy.units as u
 from sunpy.net import Fido
 from sunpy.net import attrs as a
