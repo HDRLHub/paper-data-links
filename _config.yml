@@ -1,7 +1,7 @@
 title: VSO Instrument Data Links
 description: Information about VSO instruments used in scientific papers
 theme: jekyll-theme-minimal
-github_repo_url: "https://github.com/abuonomo/paper-data-links/blob/main"
+github_repo_url: "https://github.com/hdrlhub/paper-data-links/blob/main"
 include:
   - "*.json"
   - CONTRIBUTING.md
