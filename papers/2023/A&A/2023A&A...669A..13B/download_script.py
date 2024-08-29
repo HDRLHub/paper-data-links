@@ -1,7 +1,5 @@
 # This script, including code comments, was initially drafted by an AI model. Please use with caution.
 
-The improved script with necessary changes.
-```python
 # Import necessary modules from SunPy
 from sunpy.net import Fido, attrs as a
 from sunpy.time import TimeRange
