@@ -11,21 +11,21 @@ We welcome contributions to Paper Data Links! Here are some guidelines to help y
 
 Contributed materials should follow the expected directory structure and file requirements:
 
-- **Directory Naming**: Use the NASA/ADS Bibcode for the directory name within the `papers` directory (e.g., `papers/2022A&A...659A.187W`).
+- **Directory Structure**: Use the format `papers/year/journal_abbrev/bibcode` (e.g., `papers/2023/ApJ/2023ApJ...943...70S`).
 - **Required Files**:
     - `INSTRUMENT_DETAILS.md`: A natural language description of the data sources used.
     - `download_script.py`: The script to download the data.
-    - `metadata.json`: Metadata related to the script and data.
+    - `README.md`: A YAML front matter file containing metadata and paper information.
 - **Other Files**:
     - Other files (e.g., `RATIONALE.md`, `SCRIPT_WITH_COMMENTS.md`) are not required. These files are artifacts of our automated pipeline and do not require correction.
 
 Example structure:
 ```
-papers/2022A&A...659A.187W/  
+papers/2023/ApJ/2023ApJ...943...70S/  
 │  
 ├── INSTRUMENT_DETAILS.md  
 ├── download_script.py  
-├── metadata.json  
+├── README.md 
 ```
 
 ## Pull Request Actions
@@ -91,21 +91,33 @@ We categorize the actions one can take with a new PR as follows:
     - Provide visible comments or warnings next to time-ranges and other parameters that are likely to result in a script which returns no results.
     - Example: `# Check VSO Health Report for latest assessment on connectivity. https://docs.virtualsolar.org/wiki/VSOHealthReport`
 
-### Metadata
-Here is an example `metadata.json` file. It must contain the bibcode for the relevant paper, and the VSO sources in a dictionary. Available VSO sources can be found [here](https://sdac.virtualsolar.org/cgi/show_details?keyword=SOURCE).
+### README.md
 
+The README.md file should contain YAML front matter with the following required keys:
+
+```yaml
+---
+layout: paper
+title: [Paper Title]
+bibcode: [NASA/ADS Bibcode]
+authors:
+  - [Author 1]
+  - [Author 2]
+  # ... more authors
+vso_source_keys:
+  [Source Key 1]: [Source Name 1]
+  [Source Key 2]: [Source Name 2]
+  # ... more sources
+vso_instrument_keys:
+  [Instrument Key 1]: [Instrument Name 1]
+  [Instrument Key 2]: [Instrument Name 2]
+  # ... more instrumentsA
+year: [Year of Publication]
+journal_abbrev: [Journal Abbreviation, (bibstem)]
+---
 ```
-{
-  "bibcode": "2023ApJ...954L..47C",
-  "vso_source_keys": {
-    "keys": [
-      "SDO",
-      "STEREO_A",
-      "RHESSI",
-      "SOHO",
-      "GOES-12",
-      "HMI"
-    ]
-  }
-}
-```
+
+All of these keys are required. Ensure that the information is accurate and matches the paper and the data sources used. Also, carefully note that the file MUST start and end with `---`.  
+
+Available VSO sources can be found [here](https://sdac.virtualsolar.org/cgi/show_details?keyword=SOURCE).  
+Available VSO instruments can be found [here](https://sdac.virtualsolar.org/cgi/show_details?keyword=INSTRUMENT).  
