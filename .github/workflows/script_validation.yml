@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'papers/**/**/download_script.py'
+      - 'papers/**/download_script.py'
 
 jobs:
   validate_script:
@@ -21,7 +21,7 @@ jobs:
         echo "Head SHA: ${{ github.event.pull_request.head.sha }}"
         DIFF_OUTPUT=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
         echo "Diff Output: $DIFF_OUTPUT"
-        FILE_PATH=$(echo "$DIFF_OUTPUT" | grep -E 'papers/[0-9]{4}/[^/]+/[^/]+/download_script\.py')
+        FILE_PATH=$(echo "$DIFF_OUTPUT" | grep 'papers/.*/download_script.py')
         echo "Filtered Path: $FILE_PATH"
         if [ -z "$FILE_PATH" ]; then
           echo "No script changes detected."
