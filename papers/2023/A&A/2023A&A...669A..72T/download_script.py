@@ -3,57 +3,87 @@
 import astropy.units as u
 from sunpy.net import Fido, attrs as a
 
-# Define the time ranges for each instrument
-time_ranges = {
-    "GOES_XRS": ("2021-11-01 23:35", "2021-11-02 04:00"),
-    "Solar_Orbiter_STIX": ("2021-11-01 23:35", "2021-11-02 04:00"),
-    "SDO_AIA": ("2021-11-01 23:05", "2021-11-02 01:05"),
-    "STEREO_A_EUVI": ("2021-11-01 23:05", "2021-11-02 01:05"),
-    "SOHO_LASCO": ("2021-11-02 02:00", "2021-11-02 04:23"),
-    "STEREO_A_SECCHI": ("2021-11-02 01:31", "2021-11-02 04:23"),
-    "Solar_Orbiter_MAG": ("2021-11-03 14:30", "2021-11-04 07:00"),
-    "Solar_Orbiter_SWA": ("2021-11-03 14:30", "2021-11-04 07:00"),
-    "ACE_Wind": ("2021-11-03 21:30", "2021-11-04 13:00")
-}
+# GOES_XRS query
+result_goes_xrs = Fido.search(
+    a.Time("2021-11-01 23:35", "2021-11-02 04:00"),
+    a.Instrument("XRS")
+)
 
-# Define the instruments and their attributes
-instruments = {
-    "GOES_XRS": a.Instrument("XRS"),
-    "Solar_Orbiter_STIX": a.Instrument("STIX"),
-    "SDO_AIA": a.Instrument("AIA"),
-    "STEREO_A_EUVI": a.Instrument("EUVI"),
-    "SOHO_LASCO": a.Instrument("LASCO"),
-    "STEREO_A_SECCHI": a.Instrument("SECCHI"),
-    "Solar_Orbiter_MAG": a.Instrument("MAG"),
-    "Solar_Orbiter_SWA": a.Instrument("SWA"),
-    "ACE_Wind": a.Instrument("WIND")  # Assuming Wind instrument for ACE and Wind
-}
+# Solar_Orbiter_STIX query
+result_stix = Fido.search(
+    a.Time("2021-11-01 23:35", "2021-11-02 04:00"),
+    a.Instrument("STIX"),
+    a.Wavelength(4 * u.keV) | a.Wavelength(150 * u.keV)
+)
 
-# Define the wavelengths for each instrument where applicable
-wavelengths = {
-    "SDO_AIA": [1600 * u.Angstrom, 304 * u.Angstrom, 94 * u.Angstrom, 211 * u.Angstrom],
-    "Solar_Orbiter_STIX": [4 * u.keV, 150 * u.keV]
-}
+# SDO_AIA query
+result_aia = Fido.search(
+    a.Time("2021-11-01 23:05", "2021-11-02 01:05"),
+    a.Instrument("AIA"),
+    a.Wavelength(1600 * u.Angstrom) | a.Wavelength(304 * u.Angstrom) | a.Wavelength(94 * u.Angstrom) | a.Wavelength(211 * u.Angstrom)
+)
 
-# Query for each instrument
-for instrument, time_range in time_ranges.items():
-    start_time, end_time = time_range
-    query = a.Time(start_time, end_time) & instruments[instrument]
-    
-    # Add wavelength attribute if applicable
-    if instrument in wavelengths:
-        for wavelength in wavelengths[instrument]:
-            query = query & a.Wavelength(wavelength)
-    
-    # Perform the search
-    result = Fido.search(query)
-    
-    # Print the results
-    print(f"Results for {instrument}:")
-    print(result)
-    
-    # Uncomment the following line to fetch the data
-    # files = Fido.fetch(result)
-    
-    # Warning about potential pagination issues
-    # Note: If the result set is too large, consider refining the time range or other search parameters.
+# STEREO_A_EUVI query
+result_euvi = Fido.search(
+    a.Time("2021-11-01 23:05", "2021-11-02 01:05"),
+    a.Instrument("EUVI")
+)
+
+# SOHO_LASCO query
+result_lasco = Fido.search(
+    a.Time("2021-11-02 02:00", "2021-11-02 04:23"),
+    a.Instrument("LASCO")
+)
+
+# STEREO_A_SECCHI query
+result_secchi = Fido.search(
+    a.Time("2021-11-02 01:31", "2021-11-02 04:23"),
+    a.Instrument("SECCHI")
+)
+
+# Solar_Orbiter_MAG query
+result_mag = Fido.search(
+    a.Time("2021-11-03 14:30", "2021-11-04 07:00"),
+    a.Instrument("MAG")
+)
+
+# Solar_Orbiter_SWA query
+result_swa = Fido.search(
+    a.Time("2021-11-03 14:30", "2021-11-04 07:00"),
+    a.Instrument("SWA")
+)
+
+# ACE_Wind query
+result_wind = Fido.search(
+    a.Time("2021-11-03 21:30", "2021-11-04 13:00"),
+    a.Instrument("WIND")
+)
+
+# Print all results at the end
+print("Results for GOES_XRS:")
+print(result_goes_xrs)
+
+print("Results for Solar_Orbiter_STIX:")
+print(result_stix)
+
+print("Results for SDO_AIA:")
+print(result_aia)
+
+print("Results for STEREO_A_EUVI:")
+print(result_euvi)
+
+print("Results for SOHO_LASCO:")
+print(result_lasco)
+
+print("Results for STEREO_A_SECCHI:")
+print(result_secchi)
+
+print("Results for Solar_Orbiter_MAG:")
+print(result_mag)
+
+print("Results for Solar_Orbiter_SWA:")
+print(result_swa)
+
+print("Results for ACE_Wind:")
+print(result_wind)
+
