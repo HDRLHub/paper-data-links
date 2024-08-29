@@ -1,0 +1,23 @@
+name: Test Workflow
+
+# Controls when the workflow will run
+on:
+  push:
+    branches:
+      - main
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  say-hello:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # This checks out the repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Say Hello
+        run: echo "Hello, World!"
