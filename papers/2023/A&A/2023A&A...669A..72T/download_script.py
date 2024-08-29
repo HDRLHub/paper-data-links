@@ -43,7 +43,7 @@ for instrument, time_range in time_ranges.items():
     # Add wavelength attribute if applicable
     if instrument in wavelengths:
         for wavelength in wavelengths[instrument]:
-            query &= a.Wavelength(wavelength)
+            query = query & a.Wavelength(wavelength)
     
     # Perform the search
     result = Fido.search(query)
