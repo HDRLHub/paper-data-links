@@ -1,6 +1,5 @@
 # This script, including code comments, was initially drafted by an AI model. Please use with caution.
 
-
 import sunpy.net.vso as vso
 from sunpy.net import Fido, attrs as a
 import astropy.units as u
