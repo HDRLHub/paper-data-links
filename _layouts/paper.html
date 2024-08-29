@@ -6,7 +6,7 @@ layout: default
 <p><strong>bibcode:</strong> {{ page.bibcode }}</p>
 <p><strong>Authors:</strong> {{ page.authors | join: ", " }}</p>
 <p><a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}">View on ADS</a></p>
-<p><a href="{{ site.github_repo_url }}/papers/{{ page.bibcode }}/">View on GitHub</a></p>
+<p><a href="{{ site.github_repo_url }}/papers/{{ page.year }}/{{ page.journal_abbrev }}/{{ page.bibcode }}/">View on GitHub</a></p>
 
 <h2>About</h2>
 <p>This repository contains files that have been generated to aid in the understanding and analysis of the paper. The download script included here is specifically designed to retrieve data from the <a href="https://sdac.virtualsolar.org/cgi/search">Virtual Solar Observatory (VSO)</a>.</p>
