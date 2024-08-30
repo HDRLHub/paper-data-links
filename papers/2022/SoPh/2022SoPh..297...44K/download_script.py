@@ -8,10 +8,8 @@ import astropy.units as u
 time_range = a.Time('2015-07-19', '2015-07-19')
 
 # Define the instruments and their respective attributes based on the context provided
-
 # AIA Instrument on SDO
-aia_wavelengths = [171 * u.Angstrom, 193 * u.Angstrom, 304 * u.Angstrom]
-aia_query = Fido.search(time_range, a.Instrument('AIA'), a.Wavelength(aia_wavelengths))
+aia_query = Fido.search(time_range, a.Instrument('AIA'), a.Wavelength(171 * u.Angstrom) | a.Wavelength(193 * u.Angstrom) | a.Wavelength(304 * u.Angstrom))
 
 # GONG Instrument
 gong_query = Fido.search(time_range, a.Instrument('GONG'), a.Physobs('intensity'), a.Wavelength(6562.8 * u.Angstrom))
