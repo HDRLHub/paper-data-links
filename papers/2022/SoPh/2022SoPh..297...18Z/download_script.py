@@ -17,9 +17,6 @@ query_aia_171 = Fido.search(time_range_aia, a.Instrument('AIA'), a.Wavelength(17
 query_aia_193 = Fido.search(time_range_aia, a.Instrument('AIA'), a.Wavelength(193 * u.Angstrom))
 query_aia_211 = Fido.search(time_range_aia, a.Instrument('AIA'), a.Wavelength(211 * u.Angstrom))
 
-# Combine AIA queries
-query_aia = query_aia_131.responses + query_aia_171.responses + query_aia_193.responses + query_aia_211.responses
-
 query_hmi = Fido.search(time_range_hmi, a.Instrument('HMI'), a.Wavelength(6173 * u.Angstrom))
 query_euvi = Fido.search(time_range_euvi, a.Instrument('SECCHI'), a.Detector('EUVI'), a.Wavelength(195 * u.Angstrom))
 query_cor2 = Fido.search(time_range_cor2, a.Instrument('SECCHI'), a.Detector('COR2'))
@@ -27,13 +24,18 @@ query_lasco_c2 = Fido.search(time_range_lasco_c2, a.Instrument('LASCO'), a.Detec
 query_goes_0_5_4 = Fido.search(time_range_goes, a.Instrument('GOES'), a.Wavelength(0.5 * u.Angstrom, 4 * u.Angstrom))
 query_goes_1_8 = Fido.search(time_range_goes, a.Instrument('GOES'), a.Wavelength(1 * u.Angstrom, 8 * u.Angstrom))
 
-# Combine GOES queries
-query_goes = query_goes_0_5_4.responses + query_goes_1_8.responses
-
 # Print out the query results
-print("AIA Query Results:")
-for response in query_aia:
-    print(response)
+print("AIA Query Results (131 Å):")
+print(query_aia_131)
+
+print("AIA Query Results (171 Å):")
+print(query_aia_171)
+
+print("AIA Query Results (193 Å):")
+print(query_aia_193)
+
+print("AIA Query Results (211 Å):")
+print(query_aia_211)
 
 print("\nHMI Query Results:")
 print(query_hmi)
@@ -47,14 +49,20 @@ print(query_cor2)
 print("\nLASCO C2 Query Results:")
 print(query_lasco_c2)
 
-print("\nGOES Query Results:")
-for response in query_goes:
-    print(response)
+print("\nGOES Query Results (0.5-4 Å):")
+print(query_goes_0_5_4)
+
+print("GOES Query Results (1-8 Å):")
+print(query_goes_1_8)
 
 # Uncomment the following lines to fetch the data
-# files_aia = Fido.fetch(query_aia)
+# files_aia_131 = Fido.fetch(query_aia_131)
+# files_aia_171 = Fido.fetch(query_aia_171)
+# files_aia_193 = Fido.fetch(query_aia_193)
+# files_aia_211 = Fido.fetch(query_aia_211)
 # files_hmi = Fido.fetch(query_hmi)
 # files_euvi = Fido.fetch(query_euvi)
 # files_cor2 = Fido.fetch(query_cor2)
 # files_lasco_c2 = Fido.fetch(query_lasco_c2)
-# files_goes = Fido.fetch(query_goes)
+# files_goes_0_5_4 = Fido.fetch(query_goes_0_5_4)
+# files_goes_1_8 = Fido.fetch(query_goes_1_8)
