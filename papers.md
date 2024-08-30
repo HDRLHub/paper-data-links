@@ -5,15 +5,16 @@ title: All Papers
 
 # All Papers
 
-<ul class="paper-list">
+<ul class="paper-list" style="list-style-type: none; padding-left: 0;">
 {% for page in site.pages %}
   {% if page.path contains 'papers/' and page.name == 'README.md' %}
     {% assign path_parts = page.path | split: "/" %}
-    <li>
-      Year: {{ path_parts[1] }}, 
-      Journal: {{ path_parts[2] }}, 
-      Paper: <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    <li style="margin-bottom: 20px;">
+      <strong>Year:</strong> {{ path_parts[1] }} <br>
+      <strong>Journal:</strong> {{ path_parts[2] }} <br>
+      <strong>Paper:</strong> <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
     </li>
+    <hr>
   {% endif %}
 {% endfor %}
 </ul>
