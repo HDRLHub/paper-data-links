@@ -1,8 +1,5 @@
 # This script, including code comments, was initially drafted by an AI model. Please use with caution.
 
-The improved script with the necessary changes.
-
-```python
 import astropy.units as u
 from sunpy.net import Fido, attrs as a
 
