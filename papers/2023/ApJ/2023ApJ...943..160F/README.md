@@ -19,4 +19,5 @@ vso_instrument_keys:
   XRS: X-ray Sensor
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E943%2E%2E160F/
 ---

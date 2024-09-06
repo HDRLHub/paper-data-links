@@ -15,4 +15,5 @@ vso_instrument_keys:
   ERNE: Energetic and Relativistic Nuclei and Electron experiment
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E950%2E%2E%2E89L/
 ---

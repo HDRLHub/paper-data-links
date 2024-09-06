@@ -14,4 +14,5 @@ vso_instrument_keys:
   SUMER: Solar Ultraviolet Measurements of Emitted Radiation
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E948%2E%2E%2E90Z/
 ---

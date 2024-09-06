@@ -12,4 +12,5 @@ vso_instrument_keys:
   SUMER: Solar Ultraviolet Measurements of Emitted Radiation
 year: '2023'
 journal_abbrev: MNRAS
+permalink: /papers/2023/MNRAS/2023MNRAS%2E526%2E1396S/
 ---

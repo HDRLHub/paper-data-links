@@ -21,4 +21,5 @@ vso_instrument_keys:
   SUTRI: The Solar Upper Transition Region Imager
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E953%2E%2E171H/
 ---

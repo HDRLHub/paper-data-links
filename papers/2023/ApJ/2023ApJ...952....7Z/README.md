@@ -20,4 +20,5 @@ vso_instrument_keys:
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E952%2E%2E%2E%2E7Z/
 ---

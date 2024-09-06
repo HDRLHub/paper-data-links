@@ -19,4 +19,5 @@ vso_instrument_keys:
   MDI: Michelson Doppler Imager
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E945%2E%2E147N/
 ---

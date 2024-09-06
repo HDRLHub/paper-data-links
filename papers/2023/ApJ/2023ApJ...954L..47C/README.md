@@ -24,4 +24,5 @@ vso_instrument_keys:
   HMI: Helioseismic and Magnetic Imager
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E954L%2E%2E47C/
 ---

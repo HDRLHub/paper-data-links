@@ -31,4 +31,5 @@ vso_instrument_keys:
   SWAVES: STEREO/WAVES
   AIA: Atmospheric Imaging Assembly
   LASCO: Large Angle and Spectrometric Coronagraph
+permalink: /papers/2023/A&A/2023A&A%2E%2E%2E675A%2E%2E27J/
 ---

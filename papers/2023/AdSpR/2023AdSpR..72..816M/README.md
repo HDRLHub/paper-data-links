@@ -15,4 +15,5 @@ vso_instrument_keys:
   LASCO: Large Angle and Spectrometric Coronagraph
 year: '2023'
 journal_abbrev: AdSpR
+permalink: /papers/2023/AdSpR/2023AdSpR%2E%2E72%2E%2E816M/
 ---

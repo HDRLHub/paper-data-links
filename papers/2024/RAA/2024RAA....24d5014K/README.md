@@ -15,4 +15,5 @@ vso_instrument_keys:
   HMI: Helioseismic and Magnetic Imager
 year: '2024'
 journal_abbrev: RAA
+permalink: /papers/2024/RAA/2024RAA%2E%2E%2E%2E24d5014K/
 ---

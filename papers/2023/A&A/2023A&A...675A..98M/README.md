@@ -17,4 +17,5 @@ vso_instrument_keys:
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
 year: '2023'
 journal_abbrev: A&A
+permalink: /papers/2023/A&A/2023A&A%2E%2E%2E675A%2E%2E98M/
 ---

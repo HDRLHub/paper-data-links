@@ -15,4 +15,5 @@ vso_instrument_keys:
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
 year: '2024'
 journal_abbrev: MNRAS
+permalink: /papers/2024/MNRAS/2024MNRAS%2E527%2E1774V/
 ---

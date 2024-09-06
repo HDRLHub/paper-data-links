@@ -19,4 +19,5 @@ vso_instrument_keys:
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
 year: '2023'
 journal_abbrev: AdSpR
+permalink: /papers/2023/AdSpR/2023AdSpR%2E%2E72%2E%2E844M/
 ---

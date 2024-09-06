@@ -21,4 +21,5 @@ vso_instrument_keys:
   EUVI: Extreme Ultraviolet Imager
 year: '2023'
 journal_abbrev: SoPh
+permalink: /papers/2023/SoPh/2023SoPh%2E%2E298%2E%2E%2E35Z/
 ---

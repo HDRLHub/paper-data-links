@@ -16,4 +16,5 @@ vso_instrument_keys:
   GONG: Global Oscillation Network Group
 year: '2023'
 journal_abbrev: ApJ
+permalink: /papers/2023/ApJ/2023ApJ%2E%2E%2E954%2E%2E187H/
 ---
