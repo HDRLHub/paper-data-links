@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign year_papers = '' | split: '' %}
+{% for item in site.pages %}
+  {% if item.path contains page.year and item.path contains 'papers/' and item.name == 'README.md' %}
+    {% assign year_papers = year_papers | push: item %}
+  {% endif %}
+{% endfor %}
+
+{% assign journals = '' | split: '' %}
+{% for paper in year_papers %}
+  {% assign path_parts = paper.path | split: '/' %}
+  {% assign journal = path_parts[2] %}
+  {% unless journals contains journal %}
+    {% assign journals = journals | push: journal %}
+  {% endunless %}
+{% endfor %}
+
+{% assign journals = journals | sort %}
+
+<div class="journals">
+  {% for journal in journals %}
+    {% assign paper_count = 0 %}
+    {% for paper in year_papers %}
+      {% assign paper_parts = paper.path | split: '/' %}
+      {% if paper_parts[2] == journal %}
+        {% assign paper_count = paper_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    <button class="collapsible">
+      <span class="caret"></span> <!-- Triangle -->
+      {{ journal }} <span class="paper-count">({{ paper_count }})</span>
+    </button>
+    <div class="content">
+      <ul>
+      {% for paper in year_papers %}
+        {% assign paper_parts = paper.path | split: '/' %}
+        {% if paper_parts[2] == journal %}
+          <li>
+            <a href="{{ paper.url | relative_url }}">{{ paper.title }}</a>
+            {% if paper.bibcode %}
+              <br><strong>Bibcode:</strong> {{ paper.bibcode }}
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+

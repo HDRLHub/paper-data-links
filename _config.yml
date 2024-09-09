@@ -5,3 +5,6 @@ github_repo_url: "https://github.com/hdrlhub/paper-data-links/blob/main"
 include:
   - "*.json"
   - CONTRIBUTING.md
+collections:
+  years:
+    output: true

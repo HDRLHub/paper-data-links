@@ -1,0 +1,12 @@
+---
+layout: default
+title: Papers by Year
+---
+
+<h1>Papers by Year</h1>
+
+<ul class="years">
+{% for year in site.years %}
+  <li><a href="{{ year.url | relative_url }}">{{ year.title }}</a></li>
+{% endfor %}
+</ul>

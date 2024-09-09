@@ -86,4 +86,103 @@ h2 {
   text-transform: uppercase;
 }
 
+.years li a {
+//   font-size: 1.5em; /* Adjust font size */
+//   font-weight: bold; /* Make the text bold */
+//   padding: 5px 0; /* Add some space around the links */
+}
+
+ul li a:hover {
+//   color: #007bff; /* Add a hover effect, e.g., blue color */
+}
+
+
+/* Target the <ul> with the "years" class */
+.years {
+  list-style-type: none; /* Remove bullets from the list */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style the list items inside the "years" class */
+.years li {
+  margin-bottom: 15px; /* Add space between list items */
+}
+
+/* Style the links inside the "years" class */
+.years li a {
+  font-size: 1.5em; /* Adjust font size */
+//   font-weight: bold; /* Make the text bold */
+//   color: #000; /* Set a different color */
+//   text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Add some padding around the link */
+}
+
+/* Add a hover effect for the links */
+.years li a:hover {
+//   background-color: #f0f0f0; /* Light gray background on hover */
+//   color: #007bff; /* Change text color on hover */
+//   border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the collapsible button */
+.collapsible {
+  background-color: transparent; /* No background for a cleaner look */
+  color: #000; /* Black text */
+  cursor: pointer;
+  padding: 10px 5px;
+  border: none;
+  text-align: left;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.collapsible:focus {
+  outline: none; /* Remove focus outline */
+}
+
+/* The triangle before the journal title */
+.collapsible .caret {
+  border: solid #000;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  transform: rotate(-45deg); /* Triangle pointing right */
+  transition: transform 0.15s ease;
+}
+
+/* Rotate the triangle when expanded */
+.collapsible.active .caret {
+  transform: rotate(45deg); /* Triangle pointing down */
+}
+
+/* Style for the content div to be hidden initially */
+.content {
+  display: none;
+  overflow: hidden;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+/* Style the visible content when expanded */
+.content ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+}
+
+
+.paper-count {
+  font-size: 0.8em; /* Make the text a bit smaller */
+  color: #666; /* Optional: Add a lighter color to differentiate */
+  margin-left: 5px; /* Add some spacing between the journal name and the count */
+}
+
+
+
 
