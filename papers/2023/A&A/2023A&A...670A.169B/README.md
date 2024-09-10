@@ -16,4 +16,5 @@ vso_instrument_keys:
   AIA: Atmospheric Imaging Assembly
   LASCO: Large Angle and Spectrometric Coronagraph
   LEARMONTH: Australian GONG+ site
+permalink: /papers/2023/A&A/2023A&A%2E%2E%2E670A%2E169B/
 ---

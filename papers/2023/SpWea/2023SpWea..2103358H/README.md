@@ -7,7 +7,7 @@ authors:
 - Harrison, Richard A.
 - Davies, Jackie A.
 - Barnes, David
-- "M\xF6stl, Christian"
+- Möstl, Christian
 vso_source_keys:
   SOHO: Solar and Heliospheric Observatory
   STEREO_A: Solar TErrestrial RElations Observatory - Ahead

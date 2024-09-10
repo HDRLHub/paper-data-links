@@ -6,7 +6,7 @@ authors:
 - Gopalswamy, Nat
 - Michalek, Grzegorz
 - Yashiro, Seiji
-- "M\xE4kel\xE4, Pertti"
+- Mäkelä, Pertti
 - Akiyama, Sachiko
 - Xie, Hong
 vso_source_keys:

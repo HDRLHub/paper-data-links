@@ -24,4 +24,5 @@ vso_instrument_keys:
   AIA: Atmospheric Imaging Assembly
   LASCO: Large Angle and Spectrometric Coronagraph
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
+permalink: /papers/2023/A&A/2023A&A%2E%2E%2E669A%2E%2E72T/
 ---

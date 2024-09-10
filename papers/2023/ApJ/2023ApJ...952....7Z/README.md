@@ -5,9 +5,9 @@ title: Evolution of the Radial Size and Expansion of Coronal Mass Ejections Inve
 bibcode: 2023ApJ...952....7Z
 authors:
 - Zhuang, Bin
-- "Lugaz, No\xE9"
+- Lugaz, Noé
 - Al-Haddad, Nada
-- "Winslow, R\xE9ka M."
+- Winslow, Réka M.
 - Scolini, Camilla
 - Farrugia, Charles J.
 - Galvin, Antoinette B.

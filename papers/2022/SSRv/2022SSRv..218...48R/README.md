@@ -13,4 +13,5 @@ vso_source_keys:
   STEREO_B: Solar TErrestrial RElations Observatory - Behind
 vso_instrument_keys:
   LASCO: Large Angle and Spectrometric Coronagraph
+permalink: /papers/2022/SSRv/2022SSRv%2E%2E218%2E%2E%2E48R/
 ---

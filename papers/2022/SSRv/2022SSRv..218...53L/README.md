@@ -16,4 +16,5 @@ vso_instrument_keys:
   LASCO: Large Angle and Spectrometric Coronagraph
   WISPR: Wide-Field Imager for Solar Probe Plus
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
+permalink: /papers/2022/SSRv/2022SSRv%2E%2E218%2E%2E%2E53L/
 ---

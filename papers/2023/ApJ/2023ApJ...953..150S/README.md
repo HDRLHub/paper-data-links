@@ -6,7 +6,7 @@ authors:
 - Sahade, Abril
 - Vourlidas, Angelos
 - Balmaceda, Laura A.
-- "C\xE9cere, Mariana"
+- Cécere, Mariana
 vso_source_keys:
   SOHO: Solar and Heliospheric Observatory
   STEREO_A: Solar TErrestrial RElations Observatory - Ahead
