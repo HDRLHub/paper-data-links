@@ -2,6 +2,7 @@
 
 import sunpy.net.vso as vso
 from sunpy.net import Fido, attrs as a
+import astropy.units as u
 
 # Initialize the VSO client
 client = vso.VSOClient()
