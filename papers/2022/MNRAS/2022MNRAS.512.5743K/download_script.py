@@ -1,8 +1,5 @@
 # This script, including code comments, was initially drafted by an AI model. Please use with caution.
 
-The improved script with added comments for pagination and potential issues with large time ranges.
-
-```python
 import astropy.units as u
 from sunpy.net import Fido
 from sunpy.net import attrs as a
