@@ -17,4 +17,5 @@ vso_source_keys:
 vso_instrument_keys:
   AIA: Atmospheric Imaging Assembly
   LASCO: Large Angle and Spectrometric Coronagraph
+permalink: /papers/2022/SoPh/2022SoPh%2E%2E297%2E%2E153D/
 ---

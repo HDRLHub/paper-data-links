@@ -20,4 +20,5 @@ vso_source_keys:
   STEREO_A: Solar TErrestrial RElations Observatory - Ahead
 vso_instrument_keys:
   LASCO: Large Angle and Spectrometric Coronagraph
+permalink: /papers/2022/SpWea/2022SpWea%2E%2E2002925N/
 ---

@@ -13,4 +13,5 @@ vso_source_keys:
 vso_instrument_keys:
   LASCO: Large Angle and Spectrometric Coronagraph
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
+permalink: /papers/2022/SoPh/2022SoPh%2E%2E297%2E%2E%2E98K/
 ---

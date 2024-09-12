@@ -40,4 +40,5 @@ vso_instrument_keys:
   IMPACT: In-situ Measurements of Particles and CME Transients
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
   PLASTIC: PLasma And SupraThermal Ion Composition
+permalink: /papers/2022/SpWea/2022SpWea%2E%2E2002993P/
 ---
