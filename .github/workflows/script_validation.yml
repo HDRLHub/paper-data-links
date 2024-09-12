@@ -68,9 +68,3 @@ jobs:
       if: env.FILE_PATH
       run: |
         python $FILE_PATH
-
-    - name: Upload script output
-      uses: actions/upload-artifact@v2
-      with:
-        name: script-output
-        path: script_output.txt
