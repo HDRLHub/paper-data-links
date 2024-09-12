@@ -8,13 +8,13 @@ from sunpy.net import Fido, attrs as a
 time_range = a.Time('2010-01-01', '2010-01-31')  # Example time range within the original range
 
 # Query for SOHO/MDI data
-mdi_query = Fido.search(time_range, a.Instrument('MDI'), a.Physobs('magnetic_field'))
+mdi_query = Fido.search(time_range, a.Instrument('MDI'))
 print("SOHO/MDI Query Results:")
 print(mdi_query)
 # mdi_files = Fido.fetch(mdi_query)
 
 # Query for SDO/HMI data
-hmi_query = Fido.search(time_range, a.Instrument('HMI'), a.Physobs('magnetic_field'))
+hmi_query = Fido.search(time_range, a.Instrument('HMI'))
 print("SDO/HMI Query Results:")
 print(hmi_query)
 # hmi_files = Fido.fetch(hmi_query)
