@@ -18,7 +18,6 @@ instrument_2 = a.Instrument('AIA')
 
 # Data Collection Period 3: Flare observation by ESP on EVE
 time_range_3 = a.Time('2022-01-20 00:00:00', '2022-01-20 23:59:59')  # Assuming full day for simplicity
-wavelength_3 = a.Wavelength(1 * u.Angstrom, 70 * u.Angstrom)
 instrument_3 = a.Instrument('EVE')
 
 # Data Collection Period 4: Flare observation by HMI
@@ -39,7 +38,7 @@ detector_6 = a.Detector('COR2')
 query_1_wavelength_131 = Fido.search(time_range_1, instrument_1, a.Wavelength(131 * u.Angstrom))
 query_1_wavelength_94 = Fido.search(time_range_1, instrument_1, a.Wavelength(94 * u.Angstrom))
 query_2 = Fido.search(time_range_2, instrument_2, wavelength_2)
-query_3 = Fido.search(time_range_3, instrument_3, wavelength_3)
+query_3 = Fido.search(time_range_3, instrument_3)
 query_4 = Fido.search(time_range_4, instrument_4)
 query_5 = Fido.search(time_range_5, instrument_5)
 query_6 = Fido.search(time_range_6, instrument_6, detector_6)
