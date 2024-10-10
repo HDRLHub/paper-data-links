@@ -9,7 +9,6 @@ from astropy import units as u
 
 # Data Collection Period 1: Early eruption of the hot channel
 time_range_1 = a.Time('2022-01-20 05:00:00', '2022-01-20 05:51:30')
-wavelengths_1 = [a.Wavelength(131 * u.Angstrom), a.Wavelength(94 * u.Angstrom)]
 instrument_1 = a.Instrument('AIA')
 
 # Data Collection Period 2: Formation and propagation of the EUV wave
@@ -36,8 +35,9 @@ instrument_6 = a.Instrument('SECCHI')
 detector_6 = a.Detector('COR2')
 
 # Construct the queries
-# Note: Combining wavelengths in a single query for AIA
-query_1 = Fido.search(time_range_1, instrument_1, wavelengths_1)
+# Construct the queries for each AIA wavelength separately
+query_1_wavelength_131 = Fido.search(time_range_1, instrument_1, a.Wavelength(131 * u.Angstrom))
+query_1_wavelength_94 = Fido.search(time_range_1, instrument_1, a.Wavelength(94 * u.Angstrom))
 query_2 = Fido.search(time_range_2, instrument_2, wavelength_2)
 query_3 = Fido.search(time_range_3, instrument_3, wavelength_3)
 query_4 = Fido.search(time_range_4, instrument_4)
@@ -45,10 +45,16 @@ query_5 = Fido.search(time_range_5, instrument_5)
 query_6 = Fido.search(time_range_6, instrument_6, detector_6)
 
 # Print out the query results
-print("Query 1 Results: Early eruption of the hot channel")
-print(query_1)
+# Print out the results for each query in wavelengths_1
+print("Query 1 Results: Early eruption of the hot channel (131 Angstrom)")
+print(query_1_wavelength_131)
 # Uncomment the following line to fetch the data
-# files_1 = Fido.fetch(query_1)
+# files_1_wavelength_131 = Fido.fetch(query_1_wavelength_131)
+
+print("\nQuery 1 Results: Early eruption of the hot channel (94 Angstrom)")
+print(query_1_wavelength_94)
+# Uncomment the following line to fetch the data
+# files_1_wavelength_94 = Fido.fetch(query_1_wavelength_94)
 
 print("\nQuery 2 Results: Formation and propagation of the EUV wave")
 print(query_2)
