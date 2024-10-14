@@ -1,0 +1,3 @@
+_This commentary was initially drafted by an AI model. Please use with caution_
+
+Reasoning: Let's think step by step in order to produce the script. We need to construct queries for the IRIS and SDO/AIA instruments based on the provided context. The context specifies the time ranges, wavelengths, and physical observables for each instrument. We will use the SunPy library to create these queries. The script will include the necessary imports, define the time ranges and instruments, and construct the queries using the `Fido.search` function. We will print out the query results and comment out the `Fido.fetch` commands.
