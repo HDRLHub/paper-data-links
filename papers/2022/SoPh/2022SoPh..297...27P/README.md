@@ -17,5 +17,5 @@ vso_source_keys:
 vso_instrument_keys:
   LASCO: Large Angle and Spectrometric Coronagraph
   SECCHI: Sun Earth Connection Coronal and Heliospheric Investigation
-  MAUNA LOA: Hawai'ian GONG+ site
+  K-Cor: K-coronagraph
 ---
