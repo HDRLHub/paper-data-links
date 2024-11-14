@@ -4,7 +4,7 @@ from sunpy.net import Fido, attrs as a
 from astropy import units as u  # Import units from astropy
 
 # Define the time range for the query
-time_range = a.Time('1997-01-01', '1997-12-31')
+time_range = a.Time('1997-04-20T00:00:00', '1997-04-20T23:59:59')
 
 # Define the instrument and source
 instrument = a.Instrument('SUMER')
