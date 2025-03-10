@@ -1,0 +1,116 @@
+---
+layout: paper
+title: Models and data analysis tools for the Solar Orbiter mission
+bibcode: 2020A&A...642A...2R
+permalink: /papers/2020/A&A/2020A&A%2E%2E%2E642A%2E%2E%2E2R/
+year: '2020'
+journal_abbrev: A&A
+authors:
+- Rouillard, A. P.
+- Pinto, R. F.
+- Vourlidas, A.
+- De Groof, A.
+- Thompson, W. T.
+- Bemporad, A.
+- Dolei, S.
+- Indurain, M.
+- Buchlin, E.
+- Sasso, C.
+- Spadaro, D.
+- Dalmasse, K.
+- Hirzberger, J.
+- Zouganelis, I.
+- Strugarek, A.
+- Brun, A. S.
+- Alexandre, M.
+- Berghmans, D.
+- Raouafi, N. E.
+- Wiegelmann, T.
+- Pagano, P.
+- Arge, C. N.
+- Nieves-Chinchilla, T.
+- Lavarra, M.
+- Poirier, N.
+- Amari, T.
+- Aran, A.
+- Andretta, V.
+- Antonucci, E.
+- Anastasiadis, A.
+- Auchère, F.
+- Bellot Rubio, L.
+- Nicula, B.
+- Bonnin, X.
+- Bouchemit, M.
+- Budnik, E.
+- Caminade, S.
+- Cecconi, B.
+- Carlyle, J.
+- Cernuda, I.
+- Davila, J. M.
+- Etesi, L.
+- Espinosa Lara, F.
+- Fedorov, A.
+- Fineschi, S.
+- Fludra, A.
+- Génot, V.
+- Georgoulis, M. K.
+- Gilbert, H. R.
+- Giunta, A.
+- Gomez-Herrero, R.
+- Guest, S.
+- Haberreiter, M.
+- Hassler, D.
+- Henney, C. J.
+- Howard, R. A.
+- Horbury, T. S.
+- Janvier, M.
+- Jones, S. I.
+- Kozarev, K.
+- Kraaikamp, E.
+- Kouloumvakos, A.
+- Krucker, S.
+- Lagg, A.
+- Linker, J.
+- Lavraud, B.
+- Louarn, P.
+- Maksimovic, M.
+- Maloney, S.
+- Mann, G.
+- Masson, A.
+- Müller, D.
+- Önel, H.
+- Osuna, P.
+- Orozco Suarez, D.
+- Owen, C. J.
+- Papaioannou, A.
+- Pérez-Suárez, D.
+- Rodriguez-Pacheco, J.
+- Parenti, S.
+- Pariat, E.
+- Peter, H.
+- Plunkett, S.
+- Pomoell, J.
+- Raines, J. M.
+- Riethmüller, T. L.
+- Rich, N.
+- Rodriguez, L.
+- Romoli, M.
+- Sanchez, L.
+- Solanki, S. K.
+- St Cyr, O. C.
+- Straus, T.
+- Susino, R.
+- Teriaca, L.
+- del Toro Iniesta, J. C.
+- Ventura, R.
+- Verbeeck, C.
+- Vilmer, N.
+- Warmuth, A.
+- Walsh, A. P.
+- Watson, C.
+- Williams, D.
+- Wu, Y.
+- Zhukov, A. N.
+vso_source_keys: {}
+vso_instrument_keys: {}
+---
