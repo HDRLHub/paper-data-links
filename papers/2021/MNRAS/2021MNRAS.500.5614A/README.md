@@ -1,0 +1,147 @@
+---
+layout: paper
+title: Constraining the contribution of Gamma-Ray Bursts to the high-energy diffuse
+  neutrino flux with 10 yr of ANTARES data
+bibcode: 2021MNRAS.500.5614A
+permalink: /papers/2021/MNRAS/2021MNRAS%2E500%2E5614A/
+year: '2021'
+journal_abbrev: MNRAS
+authors:
+- Albert, A.
+- André, M.
+- Anghinolfi, M.
+- Anton, G.
+- Ardid, M.
+- Aubert, J. -J.
+- Aublin, J.
+- Baret, B.
+- Basa, S.
+- Belhorma, B.
+- Bertin, V.
+- Biagi, S.
+- Bissinger, M.
+- Boumaaza, J.
+- Bouta, M.
+- Bouwhuis, M. C.
+- Brânzaş, H.
+- Bruijn, R.
+- Brunner, J.
+- Busto, J.
+- Capone, A.
+- Caramete, L.
+- Carr, J.
+- Celli, S.
+- Chabab, M.
+- Chau, T. N.
+- Cherkaoui El Moursli, R.
+- Chiarusi, T.
+- Circella, M.
+- Coleiro, A.
+- Colomer-Molla, M.
+- Coniglione, R.
+- Coyle, P.
+- Creusot, A.
+- Díaz, A. F.
+- de Wasseige, G.
+- Deschamps, A.
+- Distefano, C.
+- Palma, I. Di
+- Domi, A.
+- Donzaud, C.
+- Dornic, D.
+- Drouhin, D.
+- Eberl, T.
+- Khayati, N. E. l.
+- Enzenhöfer, A.
+- Ettahiri, A.
+- Fermani, P.
+- Ferrara, G.
+- Filippini, F.
+- Fusco, L. A.
+- Gay, P.
+- Glotin, H.
+- Gozzini, R.
+- Graf, K.
+- Guidi, C.
+- Hallmann, S.
+- van Haren, H.
+- Heijboer, A. J.
+- Hello, Y.
+- Hernández-Rey, J. J.
+- Hößl, J.
+- Hofestädt, J.
+- Huang, F.
+- Illuminati, G.
+- James, C. W.
+- de Jong, M.
+- de Jong, P.
+- Jongen, M.
+- Kadler, M.
+- Kalekin, O.
+- Katz, U.
+- Khan-Chowdhury, N. R.
+- Kouchner, A.
+- Kreykenbohm, I.
+- Kulikovskiy, V.
+- Lahmann, R.
+- Le Breton, R.
+- Lefèvre, D.
+- Leonora, E.
+- Levi, G.
+- Lincetto, M.
+- Lopez-Coto, D.
+- Loucatos, S.
+- Maggi, G.
+- Manczak, J.
+- Marcelin, M.
+- Margiotta, A.
+- Marinelli, A.
+- Martínez-Mora, J. A.
+- Mazzou, S.
+- Melis, K.
+- Migliozzi, P.
+- Moser, M.
+- Moussa, A.
+- Muller, R.
+- Nauta, L.
+- Navas, S.
+- Nezri, E.
+- Nuñez-Castiñeyra, A.
+- O'Fearraigh, B.
+- Organokov, M.
+- Păvălaş, G. E.
+- Pellegrino, C.
+- Perrin-Terrin, M.
+- Piattelli, P.
+- Poirè, C.
+- Popa, V.
+- Pradier, T.
+- Randazzo, N.
+- Reck, S.
+- Riccobene, G.
+- Sánchez-Losa, A.
+- Samtleben, D. F. E.
+- Sanguineti, M.
+- Sapienza, P.
+- Schnabel, J.
+- Schüssler, F.
+- Spurio, M.
+- Stolarczyk, Th
+- Strandberg, B.
+- Taiuti, M.
+- Tayalati, Y.
+- Thakore, T.
+- Tingay, S. J.
+- Trovato, A.
+- Vallage, B.
+- Van Elewyck, V.
+- Versari, F.
+- Viola, S.
+- Vivolo, D.
+- Wilms, J.
+- Zegarelli, A.
+- Zornoza, J. D.
+- Zúñiga, J.
+vso_source_keys: {}
+vso_instrument_keys: {}
+---
