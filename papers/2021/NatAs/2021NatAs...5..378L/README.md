@@ -1,0 +1,134 @@
+---
+layout: paper
+title: HXMT identification of a non-thermal X-ray burst from SGR J1935+2154 and with
+  FRB 200428
+bibcode: 2021NatAs...5..378L
+permalink: /papers/2021/NatAs/2021NatAs%2E%2E%2E5%2E%2E378L/
+year: '2021'
+journal_abbrev: NatAs
+authors:
+- Li, C. K.
+- Lin, L.
+- Xiong, S. L.
+- Ge, M. Y.
+- Li, X. B.
+- Li, T. P.
+- Lu, F. J.
+- Zhang, S. N.
+- Tuo, Y. L.
+- Nang, Y.
+- Zhang, B.
+- Xiao, S.
+- Chen, Y.
+- Song, L. M.
+- Xu, Y. P.
+- Liu, C. Z.
+- Jia, S. M.
+- Cao, X. L.
+- Qu, J. L.
+- Zhang, S.
+- Gu, Y. D.
+- Liao, J. Y.
+- Zhao, X. F.
+- Tan, Y.
+- Nie, J. Y.
+- Zhao, H. S.
+- Zheng, S. J.
+- Zheng, Y. G.
+- Luo, Q.
+- Cai, C.
+- Li, B.
+- Xue, W. C.
+- Bu, Q. C.
+- Chang, Z.
+- Chen, G.
+- Chen, L.
+- Chen, T. X.
+- Chen, Y. B.
+- Chen, Y. P.
+- Cui, W.
+- Cui, W. W.
+- Deng, J. K.
+- Dong, Y. W.
+- Du, Y. Y.
+- Fu, M. X.
+- Gao, G. H.
+- Gao, H.
+- Gao, M.
+- Gu, Y. D.
+- Guan, J.
+- Guo, C. C.
+- Han, D. W.
+- Huang, Y.
+- Huo, J.
+- Jiang, L. H.
+- Jiang, W. C.
+- Jin, J.
+- Jin, Y. J.
+- Kong, L. D.
+- Li, G.
+- Li, M. S.
+- Li, W.
+- Li, X.
+- Li, X. F.
+- Li, Y. G.
+- Li, Z. W.
+- Liang, X. H.
+- Liu, B. S.
+- Liu, G. Q.
+- Liu, H. W.
+- Liu, X. J.
+- Liu, Y. N.
+- Lu, B.
+- Lu, X. F.
+- Luo, T.
+- Ma, X.
+- Meng, B.
+- Ou, G.
+- Sai, N.
+- Shang, R. C.
+- Song, X. Y.
+- Sun, L.
+- Tao, L.
+- Wang, C.
+- Wang, G. F.
+- Wang, J.
+- Wang, W. S.
+- Wang, Y. S.
+- Wen, X. Y.
+- Wu, B. B.
+- Wu, B. Y.
+- Wu, M.
+- Xiao, G. C.
+- Xu, H.
+- Yang, J. W.
+- Yang, S.
+- Yang, Y. J.
+- Yang, Yi-Jung
+- Yi, Q. B.
+- Yin, Q. Q.
+- You, Y.
+- Zhang, A. M.
+- Zhang, C. M.
+- Zhang, F.
+- Zhang, H. M.
+- Zhang, J.
+- Zhang, T.
+- Zhang, W.
+- Zhang, W. C.
+- Zhang, W. Z.
+- Zhang, Y.
+- Zhang, Yue
+- Zhang, Y. F.
+- Zhang, Y. J.
+- Zhang, Z.
+- Zhang, Zhi
+- Zhang, Z. L.
+- Zhou, D. K.
+- Zhou, J. F.
+- Zhu, Y.
+- Zhu, Y. X.
+- Zhuang, R. L.
+vso_source_keys: {}
+vso_instrument_keys: {}
+---
