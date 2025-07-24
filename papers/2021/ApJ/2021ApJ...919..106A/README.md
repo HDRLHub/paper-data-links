@@ -1,0 +1,266 @@
+---
+layout: paper
+title: Searching for TeV Gamma-Ray Emission from SGR 1935+2154 during Its 2020 X-Ray
+  and Radio Bursting Phase
+bibcode: 2021ApJ...919..106A
+permalink: /papers/2021/ApJ/2021ApJ%2E%2E%2E919%2E%2E106A/
+year: '2021'
+journal_abbrev: ApJ
+authors:
+- Abdalla, H.
+- Aharonian, F.
+- Ait Benkhali, F.
+- Angüner, E. O.
+- Arcaro, C.
+- Armand, C.
+- Armstrong, T.
+- Ashkar, H.
+- Backes, M.
+- Baghmanyan, V.
+- Barbosa Martins, V.
+- Barnacka, A.
+- Barnard, M.
+- Becherini, Y.
+- Berge, D.
+- Bernlöhr, K.
+- Bi, B.
+- Böttcher, M.
+- Boisson, C.
+- Bolmont, J.
+- de Bony de Lavergne, M.
+- Breuhaus, M.
+- Brose, R.
+- Brun, F.
+- Brun, P.
+- Bryan, M.
+- Büchele, M.
+- Bulik, T.
+- Bylund, T.
+- Cangemi, F.
+- Caroff, S.
+- Carosi, A.
+- Casanova, S.
+- Chambery, P.
+- Chand, T.
+- Chandra, S.
+- Chen, A.
+- Cotter, G.
+- Curyło, M.
+- Damascene Mbarubucyeye, J.
+- Davids, I. D.
+- Davies, J.
+- Deil, C.
+- Devin, J.
+- Dirson, L.
+- Djannati-Ataï, A.
+- Dmytriiev, A.
+- Donath, A.
+- Doroshenko, V.
+- Dreyer, L.
+- Duffy, C.
+- Du Plessis, L.
+- Dyks, J.
+- Egberts, K.
+- Eichhorn, F.
+- Einecke, S.
+- Emery, G.
+- Ernenwein, J. -P.
+- Feijen, K.
+- Fegan, S.
+- Fiasson, A.
+- Fichet de Clairfontaine, G.
+- Fontaine, G.
+- Funk, S.
+- Füßling, M.
+- Gabici, S.
+- Gallant, Y. A.
+- Ghafourizade, S.
+- Giavitto, G.
+- Giunti, L.
+- Glawion, D.
+- Glicenstein, J. F.
+- Grondin, M. -H.
+- Hahn, J.
+- Haupt, M.
+- Hattingh, S.
+- Hermann, G.
+- Hinton, J. A.
+- Hofmann, W.
+- Hoischen, C.
+- Holch, T. L.
+- Holler, M.
+- Hörbe, M.
+- Horns, D.
+- Huang, Z.
+- Huber, D.
+- Jamrozy, M.
+- Jankowsky, D.
+- Jankowsky, F.
+- Jardin-Blicq, A.
+- Joshi, V.
+- Jung-Richardt, I.
+- Kasai, E.
+- Kastendieck, M. A.
+- Katarzyński, K.
+- Katz, U.
+- Khangulyan, D.
+- Khélifi, B.
+- Klepser, S.
+- Kluźniak, W.
+- Komin, Nu.
+- Konno, R.
+- Kosack, K.
+- Kostunin, D.
+- Kreter, M.
+- Kukec Mezek, G.
+- Kundu, A.
+- Lamanna, G.
+- Lemière, A.
+- Lemoine-Goumard, M.
+- Lenain, J. -P.
+- Le Stum, S.
+- Leuschner, F.
+- Levy, C.
+- Lohse, T.
+- Luashvili, A.
+- Lypova, I.
+- Mackey, J.
+- Majumdar, J.
+- Malyshev, D.
+- Malyshev, D.
+- Marandon, V.
+- Marchegiani, P.
+- Marcowith, A.
+- Mares, A.
+- Martí-Devesa, G.
+- Marx, R.
+- Maurin, G.
+- Meintjes, P. J.
+- Meyer, M.
+- Mitchell, A.
+- Moderski, R.
+- Mohrmann, L.
+- Montanari, A.
+- Moore, C.
+- Morris, P.
+- Moulin, E.
+- Muller, J.
+- Murach, T.
+- Nakashima, K.
+- Nayerhoda, A.
+- de Naurois, M.
+- Ndiyavala, H.
+- Niemiec, J.
+- Oakes, L.
+- O'Brien, P.
+- Odaka, H.
+- Ohm, S.
+- Olivera-Nieto, L.
+- de Ona Wilhelmi, E.
+- Ostrowski, M.
+- Panny, S.
+- Panter, M.
+- Parsons, R. D.
+- Peron, G.
+- Peyaud, B.
+- Piel, Q.
+- Pita, S.
+- Poireau, V.
+- Priyana Noel, A.
+- Prokhorov, D. A.
+- Prokoph, H.
+- Pühlhofer, G.
+- Punch, M.
+- Quirrenbach, A.
+- Raab, S.
+- Rauth, R.
+- Reichherzer, P.
+- Reimer, A.
+- Reimer, O.
+- Remy, Q.
+- Renaud, M.
+- Reville, B.
+- Rieger, F.
+- Rinchiuso, L.
+- Romoli, C.
+- Rowell, G.
+- Rudak, B.
+- Rueda Ricarte, H.
+- Ruiz-Velasco, E.
+- Sahakian, V.
+- Sailer, S.
+- Salzmann, H.
+- Sanchez, D. A.
+- Santangelo, A.
+- Sasaki, M.
+- Schäfer, J.
+- Schüssler, F.
+- Schutte, H. M.
+- Schwanke, U.
+- Seglar-Arroyo, M.
+- Senniappan, M.
+- Seyffert, A. S.
+- Shafi, N.
+- Shapopi, J. N. S.
+- Shiningayamwe, K.
+- Simoni, R.
+- Sinha, A.
+- Sol, H.
+- Spackman, H.
+- Specovius, A.
+- Spencer, S.
+- Spir-Jacob, M.
+- Stawarz, Ł.
+- Sun, L.
+- Steenkamp, R.
+- Stegmann, C.
+- Steinmassl, S.
+- Steppa, C.
+- Takahashi, T.
+- Tanaka, T.
+- Tavernier, T.
+- Taylor, A. M.
+- Terrier, R.
+- Thiersen, J. H. E.
+- Thorpe-Morgan, C.
+- Tiziani, D.
+- Tluczykont, M.
+- Tomankova, L.
+- Trichard, C.
+- Tsirou, M.
+- Tsuji, N.
+- Tuffs, R.
+- Uchiyama, Y.
+- van der Walt, D. J.
+- van Eldik, C.
+- van Rensburg, C.
+- van Soelen, B.
+- Vasileiadis, G.
+- Veh, J.
+- Venter, C.
+- Vincent, P.
+- Vink, J.
+- Völk, H. J.
+- Wadiasingh, Z.
+- Wagner, S. J.
+- Watson, J.
+- Werner, F.
+- White, R.
+- Wierzcholska, A.
+- deWilt, P.
+- Wong, Yu Wun
+- Yassin, H.
+- Yusafzai, A.
+- Zacharias, M.
+- Zanin, R.
+- Zargaryan, D.
+- Zdziarski, A. A.
+- Zech, A.
+- Zhu, S. J.
+- Zorn, J.
+- Zouari, S.
+- Żywucka, N.
+- H. E. S. S. Collaboration
+vso_source_keys: {}
+vso_instrument_keys: {}
+---
