@@ -1,0 +1,3 @@
+_This commentary was initially drafted by an AI model. Please use with caution_
+
+produce the script. We need to construct a query using the SunPy library to access data from the Virtual Solar Observatory (VSO) for the LASCO instrument on the SOHO spacecraft. The context specifies that we are interested in data from 1996 to 2014, focusing on the attributes of coronal mass ejections (CMEs). The LASCO instrument has three detectors: C1, C2, and C3. However, the C1 detector's data is only available until 2000, so we will focus on the C2 and C3 detectors, which have data available from 1995 to the present. The wavelength is not specified in the context, so we will not include it in the query. The primary focus is on the time range and the instrument.
