@@ -3,6 +3,10 @@ layout: default
 title: All Papers Links
 ---
 
+> **Notice:** This CSV export has been moved to a live API endpoint at `https://paper-data.helioanalytics.io/builder/public/papers/csv/`
+>
+> This page will be deprecated soon. Please update any automated scripts or bookmarks to use the new endpoint.
+
 <h1>All Papers Links (CSV Format)</h1>
 
 <p>Click the button to download the CSV file:</p>
